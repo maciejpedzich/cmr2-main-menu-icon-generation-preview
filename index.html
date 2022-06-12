@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cmr2.0 | main | menu | icon | generation | preview</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="app-title">
+        <span>cmr</span>
+        <span>2.0</span>
+        <span>main</span>
+        <span>menu</span>
+        <span>icon</span>
+        <span>generation</span>
+        <span>preview</span>
+      </h1>
+      <form id="params">
+        <div class="params-field">
+          <label for="text-to-anim">text to animate</label>
+          <input id="text-to-anim" type="text" value="maciejpędzich" />
+        </div>
+        <div class="params-field">
+          <label for="font-size">font size (pixels)</label>
+          <input id="font-size" type="number" min="4" value="16" />
+        </div>
+        <div class="params-field">
+          <label for="anim-dur">animation's duration (seconds)</label>
+          <input id="anim-dur" type="number" min="1" value="20" />
+        </div>
+        <div class="params-field">
+          <label for="svg-path">source svg file</label>
+          <input id="svg-file" type="file" accept=".svg" />
+        </div>
+        <button id="preview-btn" type="submit">preview</button>
+      </form>
+      <svg
+        id="result"
+        width="100%"
+        height="100%"
+        preserveAspectRatio="xMidYMid meet"
+      ></svg>
+      <p>&copy; 2022 Maciej Pędzich</p>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

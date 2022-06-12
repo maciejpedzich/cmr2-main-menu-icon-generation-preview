@@ -1,0 +1,19 @@
+{
+  "name": "cmr2-main-menu-icon-generator",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "svg-path-commander": "^1.0.4"
+  }
+}
