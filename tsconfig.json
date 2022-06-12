@@ -16,5 +16,5 @@
     "noImplicitReturns": true,
     "skipLibCheck": true
   },
-  "include": ["src", "@types/node", "node_modules/svg-path-commander/types"]
+  "include": ["src", "@types/node", "node_modules/svg-path-commander/*"]
 }
